@@ -79,3 +79,5 @@ function doSummerChores(name) {
       console.log(error);
     });
 }
+
+doSummerChores("Chris");

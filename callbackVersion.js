@@ -1,5 +1,4 @@
 let energy = 100;
-let name = "Chris";
 function mowYard(name, callback) {
   setTimeout(() => {
     console.log(`${name} mowed the yard.`);

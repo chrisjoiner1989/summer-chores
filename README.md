@@ -15,3 +15,19 @@ Chores include:
 5. Water the garden
 
 Each chore takes a set amount of time (simulated with `setTimeout`), and the person loses energy after each task.
+
+## Files
+
+- `callbackVersion.js` – Implements the summer chores using **nested callbacks**
+- `promiseVersion.js` – Rewrites the logic using **Promises** with `.then()` chaining
+- `asyncAwaitVersion.js` – Uses **async/await** for a cleaner and more readable flow
+
+## How to Run
+
+Make sure Node.js is installed, then run any version:
+
+```bash
+node callbackVersion.js
+node promiseVersion.js
+node asyncAwaitVersion.js
+```
